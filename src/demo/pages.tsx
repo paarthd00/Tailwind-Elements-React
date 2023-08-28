@@ -70,6 +70,7 @@ import LoginFormExamples from "./pages/forms/login-form/exampleList";
 import RegistrationFormExamples from "./pages/forms/registration-form/exampleList";
 import SearchExamples from "./pages/forms/search/exampleList";
 import FooterExamples from "./pages/navigation/footer/exampleList";
+import StepperPage from "./pages/components/stepper/StepperDemo";
 
 interface Pages {
   name: string;
@@ -91,6 +92,7 @@ const componentsPages: Pages[] = [
   { name: "badge", path: "/components/badges", element: <BadgesPage /> },
   { name: "link", path: "/components/link", element: <LinkPage /> },
   { name: "cards", path: "/components/cards", element: <CardsPage /> },
+
   {
     name: "placeholders",
     path: "/components/placeholders",
@@ -137,6 +139,9 @@ const componentsPages: Pages[] = [
     path: "/components/accordion",
     element: <AccordionPage />,
   },
+  {
+    name: "stepper", path: "/components/stepper", element: <StepperPage />
+  }
 ];
 
 const contentStylesPages: Pages[] = [
